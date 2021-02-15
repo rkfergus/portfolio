@@ -1,0 +1,30 @@
+body {
+    background: rgba(0, 255, 255, 0.02);
+}
+
+.nav-link:hover {
+    color: #545454;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #373737;
+}
+
+p {
+    color: #545454;
+}
+
+a {
+    color: #639b9b;
+}
+
+a:hover {
+    color: #00b0b0;
+    text-decoration: none;
+}
+
+#headshot {
+    padding: 40px;
+    background: #979797;
+}

@@ -1,0 +1,4 @@
+
+
+Hello there! I'm glad you made it. This website is one part portfolio, one part web dev playground, all parts me. I am a recently graduated Sun Devil, where I earned a B.S. in Computer Science and a B.A. in European History. I personally host and develop this site - keeping my mind and skills sharp, with the added bonus of having a place to play around with whatever new data input and visualization tool I'm interested in at the moment, a list of which can be found <a href="/projects#data">here</a>. I love taking fact or data from mundane & overwhelming to beautiful & enlightening, and always nuanced.
+My education and career are two of the most important things in my life, but they're not everything. If you want to read more about me personally, I've hidden that <a href="/bio">wall of text</a> elsewhere. If you're more interested in my professional life, this is probably <a href="/links">what you're looking for.</a>
