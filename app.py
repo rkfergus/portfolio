@@ -33,8 +33,10 @@ def links():
 def wages():
     import wages as wg
     df = wg.load()
-    print(df)
-    return render_template('wages.html', df=df.to_html())
+
+    avgs = wg.get_averages()
+    print(df.info())
+    return render_template('wages.html', avgs=avgs.to_html())
 
 if __name__ == '__main__':
     app.run()
