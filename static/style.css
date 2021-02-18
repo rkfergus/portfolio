@@ -1,18 +1,25 @@
 body {
-    background: rgba(0, 255, 255, 0.02);
+  background-color: #1a1a1a;
+  color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
 }
 
 .nav-link:hover {
-    color: #545454;
+    color: #9acdcd;
     text-decoration: none;
 }
 
 .nav-link {
-    color: #373737;
+    color: #739b9b;
 }
 
 p {
-    color: #545454;
+    color: #cdcdcd;
 }
 
 a {
@@ -20,11 +27,11 @@ a {
 }
 
 a:hover {
-    color: #00b0b0;
+    color: #9acdcd;
     text-decoration: none;
 }
 
 #headshot {
     padding: 40px;
-    background: #cacaca;
+    background: rgba(206, 206, 206, 0.5);
 }

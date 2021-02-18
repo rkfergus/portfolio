@@ -41,17 +41,19 @@ def wages():
     avgs.loc['Avg'] = avgs.describe().loc['mean']
     print(avgs)
 
-    fig = px.bar(x=avgs.index, y=avgs['Tip '], color=avgs['Tip '], color_continuous_scale='sunsetdark')
+    fig = px.bar(x=avgs.index, y=avgs['Tip '], color=avgs['Tip '], template='plotly_dark', color_continuous_scale='sunsetdark')
     fig.update_layout(
         title="Average Tips per Day",
         title_x=0.5,
         xaxis_title="Day",
         yaxis_title="Avg. Tip",
-        paper_bgcolor='rgb(0,0,0,0)',
-        plot_bgcolor='rgba(231, 231, 231, 0.25)',
         yaxis_tickprefix='$', yaxis_tickformat=',.2f',
         yaxis_ticklabelposition='outside',
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)',
     )
+
+    # todo move graphing to wages.py utility method, generate graphs for hours per day, avg. tip per day by month, avg hourly per day
 
     return render_template('wages.html', plot=fig.to_html())
 

@@ -2,9 +2,9 @@
 
 {% block body %}
 {#    <h1 class="text-center display-3 mx-5 pt-5">Rene Ferguson</h1>#}
-    <div class="row m-3">
-        <div class="column col-6" style="color: #545454">
-            <p class="p-3 mt-2">
+    <div class="row m-2 justify-content-around">
+        <div class="column col-5">
+            <p class="p-3">
                 {% for line in text %}
 {#                    {% if line[0] == '@' %}#}
 {#                    {% elif %}#}
@@ -18,7 +18,7 @@
                 {% endfor %}
             </p>
         </div>
-        <div class="column col-6 my-5">
+        <div class="column col-5 m-4">
             <img src="static/resources/medium.png" id="headshot" class="mt-5">
         </div>
     </div>
