@@ -50,7 +50,7 @@ def wages():
         paper_bgcolor='rgb(0,0,0,0)',
         plot_bgcolor='rgba(231, 231, 231, 0.25)',
         yaxis_tickprefix='$', yaxis_tickformat=',.2f',
-        yaxis_ticklabelposition='outside'
+        yaxis_ticklabelposition='outside',
     )
 
     return render_template('wages.html', plot=fig.to_html())

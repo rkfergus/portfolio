@@ -1,10 +1,13 @@
 {% extends "base.html" %}
 
 {% block body %}
-<h3 class="display-4 text-center my-5 py-5">WARNING, WIP</h3>
-    <div id="tester"></div>
-    <script>
-        TESTER = document.getElementById('tester')
-	    Plotly.newPlot(TESTER, {{plot|safe }}
-    </script>
+    <div class="row mx-5 my-5">
+        <div id="avgtip" class="column col-7">
+            {{plot|safe }}
+        </div>
+        <div class="column col-5 text-center pt-5">
+            <span class="pt-5 display-4"><p class="align-bottom mt-5 pt-5">placeholder</p></span>
+        </div>
+
+    </div>
 {% endblock %}
