@@ -1,10 +1,7 @@
 from flask import Flask, render_template, send_file
-from flask_bootstrap import Bootstrap
 import plotly.express as px
-from pandas.api.types import CategoricalDtype
 
 app = Flask(__name__)
-Bootstrap(app)
 
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
