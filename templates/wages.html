@@ -2,6 +2,9 @@
 
 {% block body %}
 <h3 class="display-4 text-center my-5 py-5">WARNING, WIP</h3>
-    {{ avgs | safe  }}
-    {{ df | safe }}
+    <div id="tester"></div>
+    <script>
+        TESTER = document.getElementById('tester')
+	    Plotly.newPlot(TESTER, {{plot|safe }}
+    </script>
 {% endblock %}
